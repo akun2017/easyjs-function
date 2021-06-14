@@ -1,6 +1,6 @@
 # easyjs-function
 
-> 整理一些比较特殊的js方法，包括以下范围
+> 整理一些比较特殊的js方法，包括以下范围，使用typeScript进行开发，具有提示，易于使用
 
 [使用文档 ](http://lingbk.top:9099/)
 
