@@ -1,0 +1,2 @@
+# easyjs-function
+javascript function
