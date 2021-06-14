@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+    <script src="./treeDatas.js"></script>
+    <script src="../dist/easyjs-function.umd.js"></script>
+</head>
+
+<body>
+    <script>
+        let a = [
+            {
+                name: 'ling',
+                age: 23
+            },
+            {
+                name: 'ling2',
+                age: 24
+            },
+            {
+                name: 'bk',
+                age: 24
+            },
+            {
+                name: 'tt',
+                age: 45
+            }
+        ]
+        let b = [
+            {
+                name: 'ling',
+                age: 34
+            },
+            {
+                name: 'ling2',
+                age: 232
+            },
+            {
+                name: 'qq',
+                age: 24
+            },
+            {
+                name: '吧',
+                age: 45
+            },
+            {
+                name: '赵',
+                age: 123
+            },
+            {
+                name: '才',
+                age: 345
+            }
+        ]
+        let c = window.easyjsFunction.filterArray(a, b, 'name')
+        console.log(c)// [{name: "bk", age: 24},{name: "tt", age: 45}]
+        let asc =  window.easyjsFunction.ObjectArraySort(b,'asc','name')
+        let desc =  window.easyjsFunction.ObjectArraySort(b,'desc','name')
+        console.log(asc)
+        console.log(desc)
+    </script>
+</body>
+
+</html>

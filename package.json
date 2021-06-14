@@ -1,0 +1,37 @@
+{
+  "name": "easyjs-function",
+  "version": "1.0.7",
+  "description": "javascript Function Library",
+  "main": "dist/easyjs-function.cjs.js",
+  "module": "dist/easyjs-function.esm.js",
+  "browser": "dist/easyjs-function.umd.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "ts-node test/test.ts",
+    "pretest": "npm run build"
+  },
+  "keywords": [],
+  "author": "lingbaikun",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/akshow/easyjs-function.git"
+  },
+  "dependencies": {
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/ms": "^0.7.31",
+    "npm-dts": "^1.3.9",
+    "rollup": "^2.45.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.2.0"
+  }
+}
